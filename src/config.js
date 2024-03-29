@@ -3,32 +3,32 @@ module.exports = {
   siteDescription:
     'Rushiraj Chavan is a Data Scientist, based in India, who loves learning new things and experimenting the impossible.',
   siteKeywords:
-    'Rushiraj Chavan, Rushiraj, Chavan, rushirajchavan, data scientist, data analyst, python, java, svvv, Delhi',
+    'Rushiraj Chavan, Rushiraj, Chavan, rushirajchavan, data scientist, data analyst, python, pandas, MLOps, Delhi',
   siteUrl: 'https://rushiraj98.github.io/',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
   name: 'Yashita Namdeo',
   location: 'Indore, India',
-  email: 'yashita.namdeo2000@gmail.com',
-  github: 'https://github.com/yashitanamdeo',
+  email: 'rushirajrajeshchavan@gmail.com',
+  github: 'https://github.com/Rushiraj98',
   twitterHandle: '@',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/yashitanamdeo',
+      url: 'https://github.com/Rushiraj98',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/yashitanamdeo/',
+      url: 'https://www.linkedin.com/in/rushirajchavan/',
     },
     {
       name: 'Codepen',
-      url: 'https://codepen.io/yashitanamdeo',
+      url: 'https://codepen.io/',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/yashitanamdeo',
+      url: 'https://www.instagram.com/rushiraj_chavan.ipynb',
     },
     {
       name: 'Twitter',

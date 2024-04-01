@@ -1,0 +1,15 @@
+- type: "Mail"
+  link: "mailto:rushirajrajeshchavan@gmail.com"
+  logo: "/assets/svg/mail.svg"
+
+- type: "Github"
+  link: "https://github.com/Rushiraj98"
+  logo: "/assets/svg/github.svg"
+
+# - type: "Itch.io"
+#   link: "https://kingcrimson1112.itch.io/"
+#   logo: "/assets/svg/itch.svg"
+
+- type: "LinkedIn"
+  link: "https://www.linkedin.com/in/rushirajchavan/"
+  logo: "/assets/svg/linkedin.svg"

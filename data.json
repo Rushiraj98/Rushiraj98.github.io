@@ -1,0 +1,106 @@
+{
+  "personal": {
+    "name": "Rushiraj Chavan",
+    "title": "AI Decision Scientist",
+    "bio": "AI Decision Scientist with hands-on experience in building scalable AI systems using LLMs, GenAI, Deep Learning, NLP, Computer Vision and MLOps. Delivered multiple enterprise-grade solutions across healthcare, logistics, supply chain, pharma, and design automation.",
+    "email": "rushirajrajeshchavan@gmail.com",
+    "phone": "+91 8898520000",
+    "location": "Mumbai, India",
+    "website": "https://rushiraj.tech",
+    "linkedin": "https://linkedin.com/in/rushirajchavan",
+    "github": "https://github.com/Rushiraj98"
+  },
+
+  "experience": [
+    {
+      "role": "Data Scientist",
+      "company": "Accenture",
+      "duration": "Jan 2025 – Present",
+      "location": "Mumbai, India",
+      "description": [
+        "Developing & optimizing LLM-based applications on Google Cloud Platform (GCP).",
+        "Working on LLMOps pipelines, prompt engineering, fine-tuning, scalable deployment of LLMs.",
+        "Focused on GenAI solutions for business automation & personalization."
+      ]
+    },
+    {
+      "role": "Senior Data Scientist",
+      "company": "Gramener",
+      "duration": "Oct 2021 – Jan 2025",
+      "location": "Hyderabad, India",
+      "description": [
+        "Led multiple AI projects across healthcare, supply chain, pharma and logistics.",
+        "Built medical document AI pipeline processing 100K documents/hour with 94% classification accuracy.",
+        "Built Generative AI Stable Diffusion model for wooden pattern recreation reducing 40% design time.",
+        "Developed cold chain truck scheduling algorithms improving transportation costs by 15%.",
+        "Created What-If simulations for pharma supply chain cost & carbon savings."
+      ]
+    },
+    {
+      "role": "Data Engineering Trainee",
+      "company": "MedTourEasy",
+      "duration": "Mar 2021",
+      "location": "Pune, India",
+      "description": [
+        "Performed exploratory data analysis on chemical composition datasets.",
+        "Drafted data-driven reports and analysis summaries."
+      ]
+    },
+    {
+      "role": "Campus Ambassador",
+      "company": "Mood Indigo, IIT Bombay",
+      "duration": "Oct 2019 – Dec 2019",
+      "location": "Mumbai, India",
+      "description": [
+        "Part of national campus marketing team for IITB's Mood Indigo festival."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Medical Claims AI for National Health Authority",
+      "description": "Built ML pipeline using LLMs, NLP & Computer Vision processing 100,000 documents per hour with 94% classification accuracy; fully deployed on AWS Kubernetes clusters with complete MLOps pipeline."
+    },
+    {
+      "name": "Wood Pattern Image Regeneration (GenAI)",
+      "description": "Built Stable Diffusion-based model recreating wooden textures for design automation, saving 40% design iteration time. Deployed using Streamlit with Azure VM APIs."
+    },
+    {
+      "name": "Cold Storage Warehouse Task Allocation",
+      "description": "Built Streamlit dashboard to analyze inbound/outbound logistics scheduling for ROI estimation, improving scheduling efficiency."
+    },
+    {
+      "name": "Cold Storage Truck Consolidation Optimization",
+      "description": "Developed bin-packing optimization models (First Fit & Best Fit) for truck routing, reducing logistics cost by 15%."
+    },
+    {
+      "name": "Supply Chain What-If Simulations for Pharma",
+      "description": "Built cost & carbon emission simulation models enabling pharma companies to analyze supply chain trade-offs using advanced statistical modeling."
+    },
+    {
+      "name": "Language Translator (GAN-based Speech-to-Speech)",
+      "description": "Built multilingual speech translation system using Flask, Azure STT APIs and Generative Adversarial Networks (GANs)."
+    },
+    {
+      "name": "Dry Well Detection using Acoustic Analysis",
+      "description": "Built FFT-based acoustic analysis pipeline using PyAudioAnalysis on .wav files achieving 90% accuracy for water distance measurement."
+    }
+  ],
+
+  "skills": [
+    "Python", "TensorFlow", "PyTorch", "Stable Diffusion", "GCP", "Azure", "AWS",
+    "Docker", "Kubernetes", "LLMOps", "MLOps", "Generative AI", "Large Language Models (LLMs)",
+    "NLP", "Computer Vision", "Optimization Algorithms", "Streamlit", "SQL", "Flutter", "Gramex",
+    "Data Science", "Statistical Modeling", "Simulation Models", "PyAudioAnalysis", "ThinkDSP"
+  ],
+
+  "achievements": [
+    "GPT Hackathon Runner-up",
+    "Microsoft Azure DP-100 Certified",
+    "Published Speech-to-Speech Translation Paper (GIS Science Journal 2022)",
+    "Rising Star, Safe Hands, Self-driven Team Awards at Gramener",
+    "CodeChef Snackdown 2019 — Top 1.6% (Rank 443/27875)",
+    "Google Code Jam 2020 — Top 2.7% (Rank 1203/44450)"
+  ]
+}

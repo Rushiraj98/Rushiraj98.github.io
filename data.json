@@ -83,16 +83,24 @@
     }
   ],
 
-  "skills": [
-    "Python", "C/C++", "SQL", "TensorFlow", "PyTorch", "FastAPI", "Streamlit",
-    "NumPy", "Pandas", "scikit-learn", "OpenCV", "Transformers", "Hugging Face",
-    "spaCy", "NLTK", "Git", "Docker", "Kubernetes", "Azure", "AWS", "GCP",
-    "Cloud Run", "BigQuery", "Vertex AI", "Chroma DB", "PySpark", "MLflow",
-    "Weights & Biases", "BERT", "GPT", "LangChain", "OpenAI API", "Anthropic Claude",
-    "RLHF", "Model Alignment", "Dataset Engineering", "GDPR Compliance",
-    "Neural Networks", "CNNs", "RNNs", "Transformers", "GANs", "Transfer Learning",
-    "Stable Diffusion", "LLMOps", "MLOps", "Generative AI", "NLP", "Computer Vision"
-  ],
+ "skills": [
+  "Python", "C/C++", "SQL", "TensorFlow", "PyTorch", "FastAPI", "Streamlit",
+  "NumPy", "Matplotlib", "Pandas", "scikit-learn", "Seaborn", "OpenCV", 
+  "ThinkDSP", "PyAudioAnalysis", "Transformers", "Hugging Face Datasets", 
+  "spaCy", "NLTK", "Git", "VS Code", "Anaconda", "Docker", "Kubernetes", 
+  "Azure", "AWS", "GCP", "Cloud Run", "BigQuery", "Vertex AI", 
+  "Jupyter Notebook", "Chroma DB", "Data Pipelines", "Data Warehousing", 
+  "Big Data", "PySpark", "DVC", "MLflow", "Weights & Biases", 
+  "Great Expectations", "Evidently AI", "BERT", "GPT", "LLMs", "RAG", 
+  "LangChain", "OpenAI API", "Anthropic Claude API", "Dataset Engineering", 
+  "Text Annotation", "HITL", "Prodigy", "Label Studio", "GDPR Compliance", 
+  "RLHF", "Model Alignment", "Constitutional AI", "Neural Networks", "CNNs", 
+  "RNNs", "Transformers", "Autoencoders", "GANs", "Transfer Learning", 
+  "Stable Diffusion", "Generative AI", "MLOps", "LLMOps", "Kubernetes", 
+  "AWS EKS", "SageMaker", "Lambda", "S3", "Statistical Analysis", 
+  "Problem Solving", "Technical Documentation", "Stakeholder Engagement"
+ ],
+
 
   "achievements": [
     "1st Place - Supply Chain LLM Hackathon (Accenture, 2025)",
@@ -107,3 +115,4 @@
     "Speaker at PyCon Limerick, Ireland, 2023 - Presented on Stable Diffusion and generative AI advancements"
   ]
 }
+

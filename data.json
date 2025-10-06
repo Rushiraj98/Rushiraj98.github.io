@@ -1,8 +1,8 @@
 {
   "personal": {
     "name": "Rushiraj Chavan",
-    "title": "AI Decision Scientist",
-    "bio": "AI Decision Scientist with hands-on experience in building scalable AI systems using LLMs, GenAI, Deep Learning, NLP, Computer Vision and MLOps. Delivered multiple enterprise-grade solutions across healthcare, logistics, supply chain, pharma, and design automation.",
+    "title": "AI Decision Science Analyst",
+    "bio": "AI Decision Science Analyst at Accenture with 4+ years of experience in building scalable AI systems using LLMs, GenAI, Deep Learning, NLP, Computer Vision and MLOps. Expertise in enterprise-grade cloud architectures (AWS, GCP, Azure) and end-to-end AI pipeline deployment. Delivered multiple high-impact solutions across healthcare, supply chain, pharma, logistics, and design automation with measurable business outcomes including 30% reduction in processing times and 40% improvement in operational efficiency.",
     "email": "rushirajrajeshchavan@gmail.com",
     "phone": "+91 8898520000",
     "location": "Mumbai, India",
@@ -11,48 +11,46 @@
     "github": "https://github.com/Rushiraj98"
   },
 
+  "education": [
+    {
+      "degree": "Bachelor of Engineering in Computer Engineering",
+      "institution": "Savitribai Phule Pune University",
+      "duration": "Aug 2016 – June 2021",
+      "location": "Pune, Maharashtra",
+      "cgpa": "7.87"
+    },
+    {
+      "degree": "PG-Diploma in Artificial Intelligence",
+      "institution": "Centre for Development of Advanced Computing (C-DAC)",
+      "duration": "May 2021 – Oct 2021",
+      "location": "Pune, Maharashtra"
+    }
+  ],
+
   "experience": [
     {
-      "role": "Data Scientist",
+      "role": "AI Decision Science Analyst",
       "company": "Accenture",
-      "duration": "Jan 2025 – Present",
+      "duration": "January 2025 – Present",
       "location": "Mumbai, India",
       "description": [
-        "Developing & optimizing LLM-based applications on Google Cloud Platform (GCP).",
-        "Working on LLMOps pipelines, prompt engineering, fine-tuning, scalable deployment of LLMs.",
-        "Focused on GenAI solutions for business automation & personalization."
+        "Curated and preprocessed large-scale text datasets from PDF reports and CSV files for LLM fine-tuning, implementing GDPR-compliant data handling processes for enterprise stakeholders.",
+        "Developed comprehensive annotation workflows and human-in-the-loop validation processes using LangChain and Hugging Face Transformers with dataset documentation and metadata tracking.",
+        "Built end-to-end LLM pipeline orchestration via GCP Cloud Run and BigQuery, incorporating data bias detection and automated model evaluation benchmarking.",
+        "Established cross-functional collaboration frameworks with ML engineering teams, implementing dataset versioning standards that increased analytical efficiency by 40% across business units."
       ]
     },
     {
       "role": "Senior Data Scientist",
       "company": "Gramener",
       "duration": "Oct 2021 – Jan 2025",
-      "location": "Hyderabad, India",
+      "location": "Remote/Bangalore",
       "description": [
-        "Led multiple AI projects across healthcare, supply chain, pharma and logistics.",
-        "Built medical document AI pipeline processing 100K documents/hour with 94% classification accuracy.",
-        "Built Generative AI Stable Diffusion model for wooden pattern recreation reducing 40% design time.",
-        "Developed cold chain truck scheduling algorithms improving transportation costs by 15%.",
-        "Created What-If simulations for pharma supply chain cost & carbon savings."
-      ]
-    },
-    {
-      "role": "Data Engineering Trainee",
-      "company": "MedTourEasy",
-      "duration": "Mar 2021",
-      "location": "Pune, India",
-      "description": [
-        "Performed exploratory data analysis on chemical composition datasets.",
-        "Drafted data-driven reports and analysis summaries."
-      ]
-    },
-    {
-      "role": "Campus Ambassador",
-      "company": "Mood Indigo, IIT Bombay",
-      "duration": "Oct 2019 – Dec 2019",
-      "location": "Mumbai, India",
-      "description": [
-        "Part of national campus marketing team for IITB's Mood Indigo festival."
+        "Spearheaded migration of enterprise AI pipelines from on-prem Kubernetes to AWS (EKS, SageMaker, Lambda, S3), establishing cloud-first architecture enhancing scalability and security.",
+        "Led deployment of NLP-CV models for medical claims automation processing 100K+ documents per hour, reducing turnaround time by 30% with GDPR/HIPAA-compliant workflows.",
+        "Developed generative AI systems for wood pattern design using Stable Diffusion models on AWS EC2 (g4dn instances), reducing design turnaround time by 40%.",
+        "Engineered end-to-end LLM-powered document intelligence pipelines leveraging AWS Bedrock, S3, Lambda, and EKS for enterprise-grade deployments.",
+        "Standardized MLOps workflows using AWS-native CI/CD (CodePipeline, CloudFormation) and Kubernetes with automated testing and production rollouts."
       ]
     }
   ],
@@ -60,47 +58,52 @@
   "projects": [
     {
       "name": "Medical Claims AI for National Health Authority",
-      "description": "Built ML pipeline using LLMs, NLP & Computer Vision processing 100,000 documents per hour with 94% classification accuracy; fully deployed on AWS Kubernetes clusters with complete MLOps pipeline."
+      "description": "Built comprehensive ML pipeline using LLMs, NLP & Computer Vision achieving 94% accuracy with Logistic Regression for text classification and ResNet-18/ResNet-50 for image classification. Deployed on AWS Kubernetes clusters processing 100K+ documents per hour with complete MLOps pipeline including load testing using Locust, Kibana, Grafana, and CloudWatch.",
+      "technologies": ["Python", "TensorFlow", "PyTorch", "AWS EKS", "SageMaker", "Lambda", "Kubernetes", "Logistic Regression", "ResNet"]
     },
     {
       "name": "Wood Pattern Image Regeneration (GenAI)",
-      "description": "Built Stable Diffusion-based model recreating wooden textures for design automation, saving 40% design iteration time. Deployed using Streamlit with Azure VM APIs."
+      "description": "Developed generative AI system using Stable Diffusion for wood pattern regeneration enabling recreation and extension of design samples. Built GPU-backed API endpoints on AWS EC2 (g4dn) with feedback pipelines via S3 and Lambda. Implemented Streamlit front-end for real-time designer interaction, reducing manual design workload by 40%.",
+      "technologies": ["Python", "Stable Diffusion", "AWS EC2", "S3", "Lambda", "Streamlit", "Generative AI"]
     },
     {
-      "name": "Cold Storage Warehouse Task Allocation",
-      "description": "Built Streamlit dashboard to analyze inbound/outbound logistics scheduling for ROI estimation, improving scheduling efficiency."
+      "name": "Document Question & Answering System",
+      "description": "Designed data extraction systems using Large Language Models like GPT-4 leveraging PyTorch and TensorFlow for high accuracy. Developed data pipelines for extraction, processing, and storage in Chroma DB with performance testing and optimization on cloud platforms using Kubernetes.",
+      "technologies": ["Python", "GPT-4", "LangChain", "Chroma DB", "PyTorch", "TensorFlow", "Kubernetes"]
     },
     {
       "name": "Cold Storage Truck Consolidation Optimization",
-      "description": "Developed bin-packing optimization models (First Fit & Best Fit) for truck routing, reducing logistics cost by 15%."
+      "description": "Developed bin-packing optimization models (First Fit & Best Fit) for truck routing, reducing logistics cost by 15% with Streamlit dashboard for ROI analysis.",
+      "technologies": ["Python", "Optimization Algorithms", "Streamlit", "Data Analytics"]
     },
     {
       "name": "Supply Chain What-If Simulations for Pharma",
-      "description": "Built cost & carbon emission simulation models enabling pharma companies to analyze supply chain trade-offs using advanced statistical modeling."
-    },
-    {
-      "name": "Language Translator (GAN-based Speech-to-Speech)",
-      "description": "Built multilingual speech translation system using Flask, Azure STT APIs and Generative Adversarial Networks (GANs)."
-    },
-    {
-      "name": "Dry Well Detection using Acoustic Analysis",
-      "description": "Built FFT-based acoustic analysis pipeline using PyAudioAnalysis on .wav files achieving 90% accuracy for water distance measurement."
+      "description": "Built cost & carbon emission simulation models enabling pharma companies to analyze supply chain trade-offs using advanced statistical modeling and decision support systems.",
+      "technologies": ["Python", "Statistical Modeling", "Simulation", "Data Science"]
     }
   ],
 
   "skills": [
-    "Python", "TensorFlow", "PyTorch", "Stable Diffusion", "GCP", "Azure", "AWS",
-    "Docker", "Kubernetes", "LLMOps", "MLOps", "Generative AI", "Large Language Models (LLMs)",
-    "NLP", "Computer Vision", "Optimization Algorithms", "Streamlit", "SQL", "Flutter", "Gramex",
-    "Data Science", "Statistical Modeling", "Simulation Models", "PyAudioAnalysis", "ThinkDSP"
+    "Python", "C/C++", "SQL", "TensorFlow", "PyTorch", "FastAPI", "Streamlit",
+    "NumPy", "Pandas", "scikit-learn", "OpenCV", "Transformers", "Hugging Face",
+    "spaCy", "NLTK", "Git", "Docker", "Kubernetes", "Azure", "AWS", "GCP",
+    "Cloud Run", "BigQuery", "Vertex AI", "Chroma DB", "PySpark", "MLflow",
+    "Weights & Biases", "BERT", "GPT", "LangChain", "OpenAI API", "Anthropic Claude",
+    "RLHF", "Model Alignment", "Dataset Engineering", "GDPR Compliance",
+    "Neural Networks", "CNNs", "RNNs", "Transformers", "GANs", "Transfer Learning",
+    "Stable Diffusion", "LLMOps", "MLOps", "Generative AI", "NLP", "Computer Vision"
   ],
 
   "achievements": [
-    "GPT Hackathon Runner-up",
-    "Microsoft Azure DP-100 Certified",
-    "Published Speech-to-Speech Translation Paper (GIS Science Journal 2022)",
-    "Rising Star, Safe Hands, Self-driven Team Awards at Gramener",
-    "CodeChef Snackdown 2019 — Top 1.6% (Rank 443/27875)",
-    "Google Code Jam 2020 — Top 2.7% (Rank 1203/44450)"
+    "1st Place - Supply Chain LLM Hackathon (Accenture, 2025)",
+    "Client Appreciation - Super Hero Award (Unilever, 2025) - Top performer out of 100+ teams",
+    "Core Value Champion (Accenture, 2025)",
+    "Rising Star Award (Gramener, 2021-2024)",
+    "Safe Hands Award (Gramener, 2021-2024)",
+    "Self-driven Team Award (Gramener, 2021-2024)",
+    "GPT Hackathon Runner-up (Gramener, 2021-2024)",
+    "Published 'Speech-to-speech translation using deep learning-based models and cloud services' in GIS Science Journal, 2022 (Cited by 1)",
+    "Microsoft Azure Associate Data Scientist Certification DP-100",
+    "Speaker at PyCon Limerick, Ireland, 2023 - Presented on Stable Diffusion and generative AI advancements"
   ]
 }

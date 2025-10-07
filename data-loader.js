@@ -73,12 +73,12 @@ document.addEventListener('DOMContentLoaded', () => {
       // SKILLS SECTION
       const skillsContainer = document.getElementById("skills-container");
 
-      const skillCategories = [
-        { category: "Languages & Frameworks", icon: "fa-code", filter: ["Python", "TensorFlow", "PyTorch", "Flutter", "Streamlit"] },
-        { category: "Cloud & DevOps", icon: "fa-cloud", filter: ["Azure", "GCP", "AWS", "Docker", "Kubernetes", "LLMOps", "MLOps"] },
-        { category: "AI & ML", icon: "fa-brain", filter: ["NLP", "Computer Vision", "Generative AI", "Large Language Models (LLMs)", "Optimization Algorithms"] },
-        { category: "Databases & Tools", icon: "fa-database", filter: ["SQL", "Gramex", "Simulation Models", "PyAudioAnalysis", "ThinkDSP"] }
-      ];
+      // const skillCategories = [
+      //   { category: "Languages & Frameworks", icon: "fa-code", filter: ["Python", "TensorFlow", "PyTorch", "Flutter", "Streamlit"] },
+      //   { category: "Cloud & DevOps", icon: "fa-cloud", filter: ["Azure", "GCP", "AWS", "Docker", "Kubernetes", "LLMOps", "MLOps"] },
+      //   { category: "AI & ML", icon: "fa-brain", filter: ["NLP", "Computer Vision", "Generative AI", "Large Language Models (LLMs)", "Optimization Algorithms"] },
+      //   { category: "Databases & Tools", icon: "fa-database", filter: ["SQL", "Gramex", "Simulation Models", "PyAudioAnalysis", "ThinkDSP"] }
+      // ];
 
       const skillCategories=[
         {category:"Languages & Frameworks",icon:"fa-code",filter:["Python","C/C++","SQL","TensorFlow","PyTorch","FastAPI","Streamlit","Hugging Face","Transformers","scikit-learn","NumPy","Pandas","Matplotlib","OpenCV","Git","Jupyter Notebook"]},
@@ -167,4 +167,5 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(err => console.error("Error loading data.json:", err));
 });
+
 

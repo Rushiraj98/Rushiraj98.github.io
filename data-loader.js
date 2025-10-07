@@ -80,6 +80,13 @@ document.addEventListener('DOMContentLoaded', () => {
         { category: "Databases & Tools", icon: "fa-database", filter: ["SQL", "Gramex", "Simulation Models", "PyAudioAnalysis", "ThinkDSP"] }
       ];
 
+      const skillCategories=[
+        {category:"Languages & Frameworks",icon:"fa-code",filter:["Python","C/C++","SQL","TensorFlow","PyTorch","FastAPI","Streamlit","Hugging Face","Transformers","scikit-learn","NumPy","Pandas","Matplotlib","OpenCV","Git","Jupyter Notebook"]},
+        {category:"Cloud & DevOps",icon:"fa-cloud",filter:["AWS","GCP","Azure","Docker","Kubernetes","MLOps","LLMOps","BigQuery","Vertex AI","SageMaker","Lambda","S3","CloudWatch","MLflow","Weights & Biases"]},
+        {category:"AI & ML",icon:"fa-brain",filter:["Large Language Models (LLMs)","Generative AI","NLP","Computer Vision","Stable Diffusion","BERT","GPT","Retrieval-Augmented Generation (RAG)","LangChain","OpenAI API","RLHF","Neural Networks","CNNs","RNNs","GANs","Transfer Learning"]},
+        {category:"Databases & Tools",icon:"fa-database",filter:["SQL","Chroma DB","Data Pipelines","Data Warehousing","Big Data","PySpark","Database Management","Dataset Engineering","Label Studio","Data Quality Assurance","Dataset Documentation","Metadata Tracking"]}
+      ];
+
       skillCategories.forEach(cat => {
         const skillCard = document.createElement("div");
         skillCard.classList.add("skill-category");
@@ -160,3 +167,4 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(err => console.error("Error loading data.json:", err));
 });
+

@@ -66,25 +66,55 @@ document.addEventListener('DOMContentLoaded', () => {
           autoplay: true,
           autoplayTimeout: 2500,
           autoplayHoverPause: true,
-          responsive: { 0: { items: 1 }, 600: { items: 2 }, 1000: { items: 3 } }
+          responsive: { 
+            0: { items: 1 }, 
+            600: { items: 2 }, 
+            1000: { items: 3 } 
+          }
         });
       }, 100);
 
       // SKILLS SECTION
       const skillsContainer = document.getElementById("skills-container");
 
-      // const skillCategories = [
-      //   { category: "Languages & Frameworks", icon: "fa-code", filter: ["Python", "TensorFlow", "PyTorch", "Flutter", "Streamlit"] },
-      //   { category: "Cloud & DevOps", icon: "fa-cloud", filter: ["Azure", "GCP", "AWS", "Docker", "Kubernetes", "LLMOps", "MLOps"] },
-      //   { category: "AI & ML", icon: "fa-brain", filter: ["NLP", "Computer Vision", "Generative AI", "Large Language Models (LLMs)", "Optimization Algorithms"] },
-      //   { category: "Databases & Tools", icon: "fa-database", filter: ["SQL", "Gramex", "Simulation Models", "PyAudioAnalysis", "ThinkDSP"] }
-      // ];
-
-      const skillCategories=[
-        {category:"Languages & Frameworks",icon:"fa-code",filter:["Python","C/C++","SQL","TensorFlow","PyTorch","FastAPI","Streamlit","Hugging Face","Transformers","scikit-learn","NumPy","Pandas","Matplotlib","OpenCV","Git","Jupyter Notebook"]},
-        {category:"Cloud & DevOps",icon:"fa-cloud",filter:["AWS","GCP","Azure","Docker","Kubernetes","MLOps","LLMOps","BigQuery","Vertex AI","SageMaker","Lambda","S3","CloudWatch","MLflow","Weights & Biases"]},
-        {category:"AI & ML",icon:"fa-brain",filter:["Large Language Models (LLMs)","Generative AI","NLP","Computer Vision","Stable Diffusion","BERT","GPT","Retrieval-Augmented Generation (RAG)","LangChain","OpenAI API","RLHF","Neural Networks","CNNs","RNNs","GANs","Transfer Learning"]},
-        {category:"Databases & Tools",icon:"fa-database",filter:["SQL","Chroma DB","Data Pipelines","Data Warehousing","Big Data","PySpark","Database Management","Dataset Engineering","Label Studio","Data Quality Assurance","Dataset Documentation","Metadata Tracking"]}
+      const skillCategories = [
+        {
+          category: "Languages & Frameworks", 
+          icon: "fa-code", 
+          filter: [
+            "Python", "C/C++", "SQL", "TensorFlow", "PyTorch", "FastAPI", 
+            "Streamlit", "Hugging Face", "Transformers", "scikit-learn", 
+            "NumPy", "Pandas", "Matplotlib", "OpenCV", "Git", "Jupyter Notebook"
+          ]
+        },
+        {
+          category: "Cloud & DevOps", 
+          icon: "fa-cloud", 
+          filter: [
+            "AWS", "GCP", "Azure", "Docker", "Kubernetes", "MLOps", "LLMOps", 
+            "BigQuery", "Vertex AI", "SageMaker", "Lambda", "S3", "CloudWatch", 
+            "MLflow", "Weights & Biases"
+          ]
+        },
+        {
+          category: "AI & ML", 
+          icon: "fa-brain", 
+          filter: [
+            "Large Language Models (LLMs)", "Generative AI", "NLP", "Computer Vision", 
+            "Stable Diffusion", "BERT", "GPT", "Retrieval-Augmented Generation (RAG)", 
+            "LangChain", "OpenAI API", "RLHF", "Neural Networks", "CNNs", "RNNs", 
+            "GANs", "Transfer Learning"
+          ]
+        },
+        {
+          category: "Databases & Tools", 
+          icon: "fa-database", 
+          filter: [
+            "SQL", "Chroma DB", "Data Pipelines", "Data Warehousing", "Big Data", 
+            "PySpark", "Database Management", "Dataset Engineering", "Label Studio", 
+            "Data Quality Assurance", "Dataset Documentation", "Metadata Tracking"
+          ]
+        }
       ];
 
       skillCategories.forEach(cat => {
@@ -120,52 +150,53 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       // CONTACT SECTION
-    const contactContainer = document.getElementById("contact-container");
+      const contactContainer = document.getElementById("contact-container");
 
-    const contactData = [
-    { icon: "fa-user", label: "Name", value: data.personal.name },
-    { icon: "fa-envelope", label: "Email", value: `<a href="mailto:${data.personal.email}">${data.personal.email}</a>` },
-    { icon: "fa-phone-alt", label: "Phone", value: data.personal.phone },
-    { icon: "fa-map-marker-alt", label: "Location", value: data.personal.location },
-    { icon: "fa-globe", label: "Website", value: `<a href="${data.personal.website}" target="_blank">${data.personal.website}</a>` },
-    ];
+      const contactData = [
+        { icon: "fa-user", label: "Name", value: data.personal.name },
+        { icon: "fa-envelope", label: "Email", value: `<a href="mailto:${data.personal.email}">${data.personal.email}</a>` },
+        { icon: "fa-phone-alt", label: "Phone", value: data.personal.phone },
+        { icon: "fa-map-marker-alt", label: "Location", value: data.personal.location },
+        { icon: "fa-globe", label: "Website", value: `<a href="${data.personal.website}" target="_blank">${data.personal.website}</a>` }
+      ];
 
-    contactData.forEach(item => {
-    const row = document.createElement("div");
-    row.classList.add("row");
-    row.innerHTML = `
-        <i class="fas ${item.icon}"></i>
-        <div class="info">
+      contactData.forEach(item => {
+        const row = document.createElement("div");
+        row.classList.add("row");
+        row.innerHTML = `
+          <i class="fas ${item.icon}"></i>
+          <div class="info">
             <div class="head">${item.label}</div>
             <div class="sub-title">${item.value}</div>
-        </div>
-    `;
-    contactContainer.appendChild(row);
-    });
+          </div>
+        `;
+        contactContainer.appendChild(row);
+      });
 
-    // SOCIAL ICONS SECTION
-    const socialContainer = document.getElementById("social-container");
+      // SOCIAL ICONS SECTION
+      const socialContainer = document.getElementById("social-container");
 
-    const socialData = [
-    { platform: "GitHub", url: data.personal.github, img: "https://img.icons8.com/ios-glyphs/40/ffffff/github.png" },
-    { platform: "LinkedIn", url: data.personal.linkedin, img: "https://img.icons8.com/fluency/40/000000/linkedin.png" }
-    ];
+      const socialData = [
+        { platform: "GitHub", url: data.personal.github, img: "https://img.icons8.com/ios-glyphs/40/ffffff/github.png" },
+        { platform: "LinkedIn", url: data.personal.linkedin, img: "https://img.icons8.com/fluency/40/000000/linkedin.png" }
+      ];
 
-    socialData.forEach(social => {
-    const a = document.createElement("a");
-    a.href = social.url;
-    a.target = "_blank";
-    a.rel = "noopener noreferrer";
-    a.innerHTML = `<img src="${social.img}" alt="${social.platform} logo"/>`;
-    socialContainer.appendChild(a);
-    });
-
-
+      socialData.forEach(social => {
+        const a = document.createElement("a");
+        a.href = social.url;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        a.innerHTML = `<img src="${social.img}" alt="${social.platform} logo"/>`;
+        socialContainer.appendChild(a);
+      });
 
       // Animation reveal (optional)
-      ScrollReveal().reveal('.exp-card', { delay: 200, distance: '20px', origin: 'bottom', interval: 100 });
+      ScrollReveal().reveal('.exp-card', { 
+        delay: 200, 
+        distance: '20px', 
+        origin: 'bottom', 
+        interval: 100 
+      });
     })
     .catch(err => console.error("Error loading data.json:", err));
 });
-
-

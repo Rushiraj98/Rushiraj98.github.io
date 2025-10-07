@@ -83,23 +83,12 @@
     }
   ],
 
- "skills": [
-  "Python", "C/C++", "SQL", "TensorFlow", "PyTorch", "FastAPI", "Streamlit",
-  "NumPy", "Matplotlib", "Pandas", "scikit-learn", "Seaborn", "OpenCV", 
-  "ThinkDSP", "PyAudioAnalysis", "Transformers", "Hugging Face Datasets", 
-  "spaCy", "NLTK", "Git", "VS Code", "Anaconda", "Docker", "Kubernetes", 
-  "Azure", "AWS", "GCP", "Cloud Run", "BigQuery", "Vertex AI", 
-  "Jupyter Notebook", "Chroma DB", "Data Pipelines", "Data Warehousing", 
-  "Big Data", "PySpark", "DVC", "MLflow", "Weights & Biases", 
-  "Great Expectations", "Evidently AI", "BERT", "GPT", "LLMs", "RAG", 
-  "LangChain", "OpenAI API", "Anthropic Claude API", "Dataset Engineering", 
-  "Text Annotation", "HITL", "Prodigy", "Label Studio", "GDPR Compliance", 
-  "RLHF", "Model Alignment", "Constitutional AI", "Neural Networks", "CNNs", 
-  "RNNs", "Transformers", "Autoencoders", "GANs", "Transfer Learning", 
-  "Stable Diffusion", "Generative AI", "MLOps", "LLMOps", "Kubernetes", 
-  "AWS EKS", "SageMaker", "Lambda", "S3", "Statistical Analysis", 
-  "Problem Solving", "Technical Documentation", "Stakeholder Engagement"
- ],
+ "skills":["Python","C/C++","SQL","TensorFlow","PyTorch","FastAPI","Streamlit","Hugging Face","Transformers","scikit-learn","NumPy",
+   "Pandas","Matplotlib","OpenCV","Git","Jupyter Notebook","AWS","GCP","Azure","Docker","Kubernetes","MLOps","LLMOps","BigQuery","Vertex AI",
+   "SageMaker","Lambda","S3","CloudWatch","MLflow","Weights & Biases","Large Language Models (LLMs)","Generative AI","NLP","Computer Vision",
+   "Stable Diffusion","BERT","GPT","Retrieval-Augmented Generation (RAG)","LangChain","OpenAI API","RLHF","Neural Networks","CNNs","RNNs","GANs",
+   "Transfer Learning","Chroma DB","Data Pipelines","Data Warehousing","Big Data","PySpark","Database Management","Dataset Engineering","Label Studio","Data Quality Assurance","Dataset Documentation","Metadata Tracking"]
+
 
 
   "achievements": [
@@ -115,4 +104,5 @@
     "Speaker at PyCon Limerick, Ireland, 2023 - Presented on Stable Diffusion and generative AI advancements"
   ]
 }
+
 

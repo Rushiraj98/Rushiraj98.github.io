@@ -80,7 +80,28 @@
       "name": "Supply Chain What-If Simulations for Pharma",
       "description": "Built cost & carbon emission simulation models enabling pharma companies to analyze supply chain trade-offs using advanced statistical modeling and decision support systems.",
       "technologies": ["Python", "Statistical Modeling", "Simulation", "Data Science"]
+    },
+     {
+      "name": "Lightweight Market Data SDK (Bridgefi)",
+      "description": "Built high-performance C++/Rust SDK for streaming Kraken WebSocket market data with <10ms latency. Engineered low-latency cryptocurrency trading infrastructure handling 10k+ ticks per second for real-time market data aggregation.",
+      "technologies": ["C++", "Rust", "WebSocket", "Kraken API", "Real-time Data Streaming"]
+    },
+    {
+      "name": "Market Buying Chatbot with Agentic AI Using LangGraph and GCP",
+      "description": "Built autonomous agent-based chatbot leveraging LangGraph for multi-step market analysis and procurement decision workflows. Implemented stateful agent execution with tool orchestration (market data APIs, inventory systems, pricing engines) and dynamic memory management. Deployed on GCP Cloud Run with BigQuery integration for transaction logging and audit trails, enabling real-time procurement decisions with 25% faster turnaround.",
+      "technologies": ["Python", "LangGraph", "GCP Cloud Run", "BigQuery", "LangChain", "REST APIs", "Agent Orchestration"]
+    },
+    {
+      "name": "Graph-based Retrieval-Augmented Generation (Graph RAG)",
+      "description": "Engineered knowledge graph-based RAG system for enterprise document intelligence combining Neo4j for relationship mapping with semantic search. Built entity extraction pipelines using Hugging Face NER models with graph traversal for multi-hop reasoning. Implemented semantic query expansion and context relevance scoring, improving retrieval accuracy by 35% over flat vector-based RAG and reducing hallucination rate by 28%.",
+      "technologies": ["Python", "Neo4j", "LangChain", "Hugging Face", "Knowledge Graphs", "Entity Extraction", "Graph Databases", "RAG"]
+    },
+    {
+      "name": "Enterprise LLM Fine-tuning Pipeline on GCP Vertex AI",
+      "description": "Developed production-grade LLM fine-tuning infrastructure using LoRA and QLoRA on GCP Vertex AI with automated orchestration. Implemented hyperparameter sweeps, evaluation benchmarking (BLEU, ROUGE, custom metrics), and A/B testing frameworks for model selection. Built CI/CD pipelines for dataset versioning (BigQuery), model versioning (Vertex Model Registry), and automated retraining triggers. Reduced fine-tuning iteration cycle from 2 weeks to 3 days.",
+      "technologies": ["Python", "Hugging Face", "LoRA", "QLoRA", "GCP Vertex AI", "PyTorch", "MLflow", "BigQuery", "Model Registry"]
     }
+
   ],
 
  "skills":["Python","C/C++","SQL","TensorFlow","PyTorch","FastAPI","Streamlit","Hugging Face","Transformers","scikit-learn","NumPy",
@@ -88,8 +109,6 @@
    "SageMaker","Lambda","S3","CloudWatch","MLflow","Weights & Biases","Large Language Models (LLMs)","Generative AI","NLP","Computer Vision",
    "Stable Diffusion","BERT","GPT","Retrieval-Augmented Generation (RAG)","LangChain","OpenAI API","RLHF","Neural Networks","CNNs","RNNs","GANs",
    "Transfer Learning","Chroma DB","Data Pipelines","Data Warehousing","Big Data","PySpark","Database Management","Dataset Engineering","Label Studio","Data Quality Assurance","Dataset Documentation","Metadata Tracking"],
-
-
 
   "achievements": [
     "1st Place - Supply Chain LLM Hackathon (Accenture, 2025)",

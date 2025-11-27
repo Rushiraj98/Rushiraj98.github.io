@@ -45,42 +45,71 @@ const portfolioData = {
   ],
 
   projects: [
-    {
-      name: "Medical Claims AI for National Health Authority",
-      description: "Built comprehensive ML pipeline using LLMs, NLP & Computer Vision achieving 94% accuracy with Logistic Regression for text classification and ResNet-18/ResNet-50 for image classification. Deployed on AWS Kubernetes clusters processing 100K+ documents per hour with complete MLOps pipeline including load testing using Locust, Kibana, Grafana, and CloudWatch.",
-      technologies: ["Python", "TensorFlow", "PyTorch", "AWS EKS", "SageMaker", "Lambda", "Kubernetes", "Logistic Regression", "ResNet"],
-      category: ["mlops", "cv", "llm"],
-      icon: "fa-hospital"
-    },
-    {
-      name: "Wood Pattern Image Regeneration (GenAI)",
-      description: "Developed generative AI system using Stable Diffusion for wood pattern regeneration enabling recreation and extension of design samples. Built GPU-backed API endpoints on AWS EC2 (g4dn) with feedback pipelines via S3 and Lambda. Implemented Streamlit front-end for real-time designer interaction, reducing manual design workload by 40%.",
-      technologies: ["Python", "Stable Diffusion", "AWS EC2", "S3", "Lambda", "Streamlit", "Generative AI"],
-      category: ["genai"],
-      icon: "fa-image"
-    },
-    {
-      name: "Document Question & Answering System",
-      description: "Designed data extraction systems using Large Language Models like GPT-4 leveraging PyTorch and TensorFlow for high accuracy. Developed data pipelines for extraction, processing, and storage in Chroma DB with performance testing and optimization on cloud platforms using Kubernetes.",
-      technologies: ["Python", "GPT-4", "LangChain", "Chroma DB", "PyTorch", "TensorFlow", "Kubernetes"],
-      category: ["llm"],
-      icon: "fa-comments"
-    },
-    {
-      name: "Cold Storage Truck Consolidation Optimization",
-      description: "Developed bin-packing optimization models (First Fit & Best Fit) for truck routing, reducing logistics cost by 15% with Streamlit dashboard for ROI analysis.",
-      technologies: ["Python", "Optimization Algorithms", "Streamlit", "Data Analytics"],
-      category: ["mlops"],
-      icon: "fa-truck"
-    },
-    {
-      name: "Supply Chain What-If Simulations for Pharma",
-      description: "Built cost & carbon emission simulation models enabling pharma companies to analyze supply chain trade-offs using advanced statistical modeling and decision support systems.",
-      technologies: ["Python", "Statistical Modeling", "Simulation", "Data Science"],
-      category: ["mlops"],
-      icon: "fa-pills"
-    }
-  ],
+  {
+    name: "Medical Claims AI for National Health Authority",
+    description: "Built comprehensive ML pipeline using LLMs, NLP & Computer Vision achieving 94% accuracy with Logistic Regression for text classification and ResNet-18/ResNet-50 for image classification. Deployed on AWS Kubernetes clusters processing 100K+ documents per hour with complete MLOps pipeline including load testing using Locust, Kibana, Grafana, and CloudWatch.",
+    technologies: ["Python", "TensorFlow", "PyTorch", "AWS EKS", "SageMaker", "Lambda", "Kubernetes", "Logistic Regression", "ResNet"],
+    category: ["mlops", "cv", "llm"],
+    icon: "fa-hospital"
+  },
+  {
+    name: "Wood Pattern Image Regeneration (GenAI)",
+    description: "Developed generative AI system using Stable Diffusion for wood pattern regeneration enabling recreation and extension of design samples. Built GPU-backed API endpoints on AWS EC2 (g4dn) with feedback pipelines via S3 and Lambda. Implemented Streamlit front-end for real-time designer interaction, reducing manual design workload by 40%.",
+    technologies: ["Python", "Stable Diffusion", "AWS EC2", "S3", "Lambda", "Streamlit", "Generative AI"],
+    category: ["genai"],
+    icon: "fa-image"
+  },
+  {
+    name: "Document Question & Answering System",
+    description: "Designed data extraction systems using Large Language Models like GPT-4 leveraging PyTorch and TensorFlow for high accuracy. Developed data pipelines for extraction, processing, and storage in Chroma DB with performance testing and optimization on cloud platforms using Kubernetes.",
+    technologies: ["Python", "GPT-4", "LangChain", "Chroma DB", "PyTorch", "TensorFlow", "Kubernetes"],
+    category: ["llm"],
+    icon: "fa-comments"
+  },
+  {
+    name: "Cold Storage Truck Consolidation Optimization",
+    description: "Developed bin-packing optimization models (First Fit & Best Fit) for truck routing, reducing logistics cost by 15% with Streamlit dashboard for ROI analysis.",
+    technologies: ["Python", "Optimization Algorithms", "Streamlit", "Data Analytics"],
+    category: ["mlops"],
+    icon: "fa-truck"
+  },
+  {
+    name: "Supply Chain What-If Simulations for Pharma",
+    description: "Built cost & carbon emission simulation models enabling pharma companies to analyze supply chain trade-offs using advanced statistical modeling and decision support systems.",
+    technologies: ["Python", "Statistical Modeling", "Simulation", "Data Science"],
+    category: ["mlops"],
+    icon: "fa-pills"
+  },
+  {
+    name: "Lightweight Market Data SDK (Bridgefi)",
+    description: "Built high-performance C++/Rust SDK for streaming Kraken WebSocket market data with <10ms latency. Engineered low-latency cryptocurrency trading infrastructure handling 10k+ ticks per second for real-time market data aggregation and exchange connectivity.",
+    technologies: ["C++", "Rust", "WebSocket", "Kraken API", "Real-time Data Streaming"],
+    category: ["backend", "systems"],
+    icon: "fa-code"
+  },
+  {
+    name: "Market Buying Chatbot with Agentic AI Using LangGraph and GCP",
+    description: "Built autonomous agent-based chatbot leveraging LangGraph for multi-step market analysis and procurement decision workflows. Implemented stateful agent execution with tool orchestration (market data APIs, inventory systems, pricing engines) and dynamic memory management. Deployed on GCP Cloud Run with BigQuery integration for transaction logging and audit trails, enabling real-time procurement decisions with 25% faster turnaround.",
+    technologies: ["Python", "LangGraph", "GCP Cloud Run", "BigQuery", "LangChain", "REST APIs", "Agent Orchestration"],
+    category: ["llm", "genai"],
+    icon: "fa-robot"
+  },
+  {
+    name: "Graph-based Retrieval-Augmented Generation (Graph RAG)",
+    description: "Engineered knowledge graph-based RAG system for enterprise document intelligence combining Neo4j for relationship mapping with semantic search. Built entity extraction pipelines using Hugging Face NER models with graph traversal for multi-hop reasoning. Implemented semantic query expansion and context relevance scoring, improving retrieval accuracy by 35% over flat vector-based RAG and reducing hallucination rate by 28%.",
+    technologies: ["Python", "Neo4j", "LangChain", "Hugging Face", "Knowledge Graphs", "Entity Extraction", "Graph Databases", "RAG"],
+    category: ["llm", "genai"],
+    icon: "fa-network-wired"
+  },
+  {
+    name: "Enterprise LLM Fine-tuning Pipeline on GCP Vertex AI",
+    description: "Developed production-grade LLM fine-tuning infrastructure using LoRA and QLoRA on GCP Vertex AI with automated orchestration. Implemented hyperparameter sweeps, evaluation benchmarking (BLEU, ROUGE, custom metrics), and A/B testing frameworks for model selection. Built CI/CD pipelines for dataset versioning (BigQuery), model versioning (Vertex Model Registry), and automated retraining triggers. Reduced fine-tuning iteration cycle from 2 weeks to 3 days.",
+    technologies: ["Python", "Hugging Face", "LoRA", "QLoRA", "GCP Vertex AI", "PyTorch", "MLflow", "BigQuery", "Model Registry"],
+    category: ["llm", "mlops"],
+    icon: "fa-cube"
+  }
+], 
+
 
   skills: {
     "Programming & Frameworks": {
